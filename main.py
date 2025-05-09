@@ -112,13 +112,13 @@ if df is not None:
     if dificultad > 10:
         st.write("Consejo: Tal vez tu sofá tenga más oportunidades que esta oposición 😏")
     else:
-        st.write("¡Todo parece ir bien! Sigue así y conviértete en funcionario mientras te relajas. 🏖️")
+        st.write("¡Todo parece ir bien! Sigue así y conviértete en funcionario.")
 
     # **Elemento Viral:**
     # Generamos un link para compartir el resultado en redes sociales
     if st.button("¡Comparte tu resultado!"):
         # El usuario puede compartir su resultado en redes sociales
-        result_message = f"¡He calculado mi probabilidad de aprobar en Funcivago! 🤓 Mi probabilidad es de {probabilidad_estimada:.2f}% ¡Y estoy listo para mi futura oposición! 🚀 #Funcivago"
+        result_message = f"¡He calculado mi probabilidad de aprobar en FunciFácil! 🤓 Mi probabilidad es de {probabilidad_estimada:.2f}% ¡Y estoy listo para mi futura oposición! 🚀 #Funcivago"
         share_url = f"https://twitter.com/intent/tweet?text={result_message}"
         st.markdown(f"[¡Comparte tu resultado en Twitter!]( {share_url} )", unsafe_allow_html=True)
 
